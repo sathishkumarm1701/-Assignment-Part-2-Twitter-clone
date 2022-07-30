@@ -1,0 +1,304 @@
+body{
+    margin: 0px;
+    padding: 8px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #E6ECF0;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 46px;
+    z-index: 100;
+}
+.mainbody{
+    width: 1190px;
+    height: auto;
+    overflow: hidden;
+    background-color: #E6ECF0;
+    margin: 56px auto;
+}
+.col1{
+    position: relative;
+    width:290px ;
+    height: 300px;
+    float: left;
+    background-color: white;
+    border: px solid blue;
+}
+.col2{
+    position: relative;
+    width:592px ;
+    height: 400px;
+    float: left;
+    background-color:white;
+    border: px solid tomato;
+    margin-left: 10px;
+}
+.col3{
+    position: relative;
+    width:290px ;
+    height: 300px;
+    float: right;
+    background-color: white;
+    border: px solid orangered;
+}
+
+
+.navs{
+    display: flex;
+    list-style-type:none;
+    gap: 2rem;
+    margin-left: 40px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color:gray;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.tweet{
+    height: 30px;
+    border-radius: 40px;
+    margin-left: 500%;
+    background-color:  #4AB3F4 ;
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border-color: #4AB3F4;
+    cursor: pointer;
+    border-width: 0px;
+    width: 90px;
+    font-size: 20px;
+}
+.home:hover{
+    color: #1da0f2;
+    border-style: none;
+    border-bottom:3px solid #1da0f2;
+    /* transition: 990ms; */
+    animation:  0.5s shake infinite alternate;
+}
+.home:hover{
+    animation: 0.5ms ;
+    
+}
+
+/*Content 1 left*/
+
+.content-back-img{
+    position: relative;
+    width: 283px;
+    height: 110px;
+}
+.content-front-img{
+    position: absolute;
+    border: px solid ;
+    width: 283px;
+    height: 90px;
+    margin-block-start: -30px;
+}
+.row3-content{
+    margin-top: 35px;
+    position: fixed;
+    display: flex;
+    width: 283px;
+    height: 90px;
+    justify-content: space-evenly;
+    margin-left: 5px;
+}
+.tweet-first{
+   color: #5b7083;
+   font-size: 19px;
+   font-weight: bold;
+   
+}
+.following-first{
+    font-weight: bold;
+    color: #5b7083;
+    font-size: 19px;
+}
+.followers-first{
+    color: #5b7083;
+    font-size: 19px;
+    font-weight: bold;
+}
+.one{
+    color: #4AB3F4;
+    
+}
+.two{
+    color: #4AB3F4;
+    margin: 5px;
+}
+.three{
+    color: #4AB3F4;
+}
+
+
+.content-img{
+    position: relative;
+    height:110px;
+    max-width: 280px;
+    border-top: 5px solid black;
+    align-content: center;
+    object-fit: contain;
+    background: black fixed;
+}
+.content-small-img{
+    width: 58px;
+    height: 58px;
+    border-radius: 50px;
+    border: 3px solid #fff;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.tweet-name{
+    color: #14171a;
+    margin-top: 20px;
+    margin-left: 30%;
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.tweet-slug{
+    margin-top: 10px;
+    margin-left: 30%;
+    color: #5b7083;
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+
+
+
+/* col 2*/
+.tweet__1{
+    display: flex;
+    border-bottom: 1px solid #e6ecf0;
+    min-height: 51px;
+    margin: 5px;
+    margin-top: 5px;
+    padding: 5px 10px;
+    position: relative;
+}
+.tweetauthorlogo{
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.tweetheader{
+    display: flex;
+    overflow: hidden;
+    margin-bottom:10px;
+}
+.tweetauthorname{
+font-size: 21px;
+font-weight: 700;
+color: #14171a;
+margin-right: 5px;
+}
+.tweetauthorslug{
+    color: #5b7083;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.tweetpublishtime{
+    margin-left: 5px;
+    color: #657786;
+    font-size: 16px;
+    margin-top: 4px;
+}
+.tweetcontent{
+    font-size: 17px;
+    font-size-adjust:10px ;
+}
+/*col 3*/
+
+.who-to-follow{
+    background: #f5f8fa;
+    border-radius: 15px;
+
+}
+.who-to-follow__block{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e6ecf0;
+}
+.who-to-follow__block:last-child{
+    border-bottom: none;
+
+}
+
+.who-to-follow__author-logo{
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.who-to-follow__author-name{
+    font-size: 15px;
+    font-weight:bold;
+}
+
+
+.who-to-follow__author-slug{
+color: #657786;
+font-size: 15px;
+}
+.who-to-follow__content{
+
+justify-content: space-between;
+width: 10%;
+}
+.who-to-follow__heading{
+font-size: 22px;
+font-weight:bolder;
+color: #14171a;
+}
+.who-to-follow__button{
+    border: 1px solid #1da0f2;
+    color: #1da0f2;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 5px;
+    min-width: 80px;
+    margin-top: 7px;
+    font-family:  'Signika Negative', sans-serif;
+    text-align: center;
+}
+.who-to-follow__button:hover{
+    background: rgba(29, 161, 242, 0.1);
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
